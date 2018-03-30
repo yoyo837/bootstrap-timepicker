@@ -1,7 +1,7 @@
 {
-  "name": "bootstrap-timepicker",
+  "name": "goon-bootstrap-timepicker",
   "description": "Timepicker widget for Twitter Bootstrap",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "license": "MIT",
   "homepage": "http://jdewit.github.com/bootstrap-timepicker",
   "author": {
