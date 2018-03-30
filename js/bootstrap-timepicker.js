@@ -155,7 +155,7 @@
             minuteStep = 60;
           }
 
-          var decrementHours = hourStep - (minuteStep == 60 ? 1 : 0);
+          var decrementHours = hourStep - (minuteStep === 60 ? 1 : 0);
           for (var i = 0; i < decrementHours; i++) {
             this.decrementHour();
           }
@@ -581,7 +581,7 @@
             minuteStep = 60;
           }
 
-          var incrementHours = hourStep - (minuteStep == 60 ? 1 : 0);
+          var incrementHours = hourStep - (minuteStep === 60 ? 1 : 0);
           for (var i = 0; i < incrementHours; i++) {
             this.incrementHour();
           }
